@@ -1,0 +1,15 @@
+.header {
+  background-color: #a4c991;
+  padding: 1px;
+  color: white;
+  
+  /* Centrar completamente el contenido */
+  display: flex;
+  flex-direction: column;  /* Asegura que los elementos estén en columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;     /* Centra horizontalmente */
+  
+  /* Ocupar toda la pantalla en altura */
+  min-height: 5rem; 
+  text-align: center; /* Centrar texto */
+}

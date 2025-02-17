@@ -1,0 +1,51 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Aumentamos el espacio entre tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas */
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white !important;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 280px;
+    text-align: center;
+    margin: 15px; /* Agrega margen adicional alrededor de cada tarjeta */
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: 180px; /* Todas las imágenes con la misma altura */
+    object-fit: cover; /* Recortar imagen manteniendo proporciones */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .card button {
+    background-color: #097bf5 !important; /* Azul */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .card button:hover {
+    background-color: #15d9fc !important; /* Azul más oscuro */
+  }
+  
