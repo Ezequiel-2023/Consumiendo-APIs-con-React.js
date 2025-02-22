@@ -1,16 +1,16 @@
 import React from 'react'
-import PokemonSearch from './PokemonSearch.tsx';
+import PokemonSearch from './ClimaSearch.tsx';
 import Navbars from '../../common/Navbars.tsx';
 import Footer from '../../common/Footer.tsx';
 import '../../../sass/header.scss';
 
-function HomePokemon() {
+function HomeClima() {
   return (
     <div>
       <Navbars></Navbars>
       <header className='header'>
-        <h1>Consumiendo API Pokemon</h1>
-        <h3>¡Elige un Pokemon!</h3>
+        <h1 >Consumiendo API Clima</h1>
+        <h3 >¡Elige un Pais para ver el clima actual!</h3>
         <PokemonSearch></PokemonSearch>
       </header>
       <Footer></Footer>
@@ -18,4 +18,4 @@ function HomePokemon() {
   )
 }
 
-export default HomePokemon
+export default HomeClima

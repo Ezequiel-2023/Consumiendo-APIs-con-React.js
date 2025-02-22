@@ -1,7 +1,7 @@
 .header {
   background-color: #a4c991;
   padding: 1px;
-  color: white;
+  color: rgb(0, 0, 0);
   
   /* Centrar completamente el contenido */
   display: flex;
@@ -12,4 +12,10 @@
   /* Ocupar toda la pantalla en altura */
   min-height: 5rem; 
   text-align: center; /* Centrar texto */
+
+  h1, h2, h3 {
+    color: #030303;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
 }
