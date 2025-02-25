@@ -51,7 +51,7 @@ function ClimaSearch() {
             {error && <p className="error">{error}</p>}
 
             {data && (
-                <Card className="Clima-card mt-3">
+                <Card className="Clima-card mt-3 cardClima">
                     <Card.Body>
                         <Card.Title className='h2'>{data.name}, {data.sys.country}</Card.Title>
                         <Card.Img className='img' variant="top" src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} />

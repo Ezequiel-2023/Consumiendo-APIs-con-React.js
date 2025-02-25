@@ -6,8 +6,7 @@ import Pokemon from "../../img/pokemon.png";
 import Marvel from "../../img/marvel.png";
 import Rick from "../../img/rick.png";
 import Clima from '../../img/clima.png';
-import Movie from "../../img/movie.png"
-import Nasa from "../../img/nasa.jpg"
+
 import "../../sass/cards.scss";
 
 function Cards() {
@@ -57,27 +56,7 @@ function Cards() {
         </Card.Body>
       </Card>
 
-      <Card className="custom-card">
-        <Card.Img variant="top" src={Movie} />
-        <Card.Body>
-          <Card.Title>Movie</Card.Title>
-          <Card.Text>API Movie</Card.Text>
-          <NavLink to="/movie">
-            <Button variant="primary">Explorar</Button>
-          </NavLink>
-        </Card.Body>
-      </Card>
-
-      <Card className="custom-card">
-        <Card.Img variant="top" src={Nasa} />
-        <Card.Body>
-          <Card.Title>Nasa</Card.Title>
-          <Card.Text>API Nasa</Card.Text>
-          <NavLink to="/movie">
-            <Button variant="primary">Explorar</Button>
-          </NavLink>
-        </Card.Body>
-      </Card>
+      
     </div>
   );
 }
